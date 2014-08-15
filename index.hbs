@@ -1,0 +1,40 @@
+{{!< default}}
+	<section class="container site-wrapper" role="main">
+		 <a href="#" class="toggle-nav btn-canvus">
+		 	<i class="fa fa-bars"></i>
+		 </a>
+		{{#foreach posts}}
+			<article role="article">
+				<header>
+					<time datetime="{{date format="YYYY-MM-DD"}}">
+						<i class="fa fa-clock-o"></i>
+						{{date format="dddd DD MMM YYYY"}}
+					</time>
+					<h2>
+						<a href="{{{url}}}" rel="bookmark">{{title}}</a>
+					</h2>
+				</header>
+
+				<div class="content">
+					<p>{{excerpt characters="300"}}</p>
+				</div>
+
+				{{#if tags}}
+					<div class="tags">
+						<i class="fa fa-tags"></i>
+						{{tags separator=" | "}}
+					</div>
+
+				{{/if}}
+			</article>
+		{{/foreach}}
+		
+		{{#if pagination}}
+			<div class="pagination">
+				{{{pagination}}}
+			</div>
+		{{/if}}
+	
+</section>
+
+

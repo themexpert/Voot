@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+body {
+  font-family: 'Noto Serif', serif;
+  font-weight: normal;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 27px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 19px;
+}
+h6 {
+  font-size: 17px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+strong {
+  color: #686868;
+}
+blockquote p {
+  border-left: 5px solid #dedede;
+  font-size: 22px;
+  line-height: 1.5;
+  padding-left: 20px;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+#sidebar {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: #333;
+  color: #f5f5f5;
+}
+#sidebar .block {
+  padding: 20px;
+}
+#sidebar .block .logo {
+  display: block;
+}
+#sidebar .block .logo img {
+  width: 100%;
+}
+#sidebar .block .title {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+#sidebar .block .title a {
+  color: #fff;
+}
+#sidebar .block .description {
+  color: #A5A5A5;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+#sidebar .block .subscription {
+  padding-top: 10px;
+}
+#sidebar .block .subscription .form-group {
+  margin-bottom: 5px;
+}
+#sidebar .block .subscription .form-group p {
+  color: #B9B9B9;
+}
+#sidebar .block .subscription .form-group input {
+  border: none;
+  width: 95%;
+  padding: 8px 0 8px 10px;
+  font-size: 12px;
+  outline: none;
+  color: #333;
+}
+#sidebar .block .subscription .btn-subscribe {
+  background: #00b2d7;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+.container {
+  margin-left: 30%;
+  max-width: 50%;
+  -webkit-transition: margin 0.2s ease-in-out;
+}
+.container article {
+  margin: 30px 0;
+  padding: 30px 25px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #dedede;
+}
+.container article header time {
+  font-size: 15px;
+  color: #979797;
+  padding: 0 4px;
+}
+.container article header h2 {
+  margin-bottom: 5px;
+  margin-top: 4px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-indent: -2px;
+  line-height: 1.2;
+}
+.container article header h2 a {
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  color: #50585D;
+}
+.container article header h2 a:hover {
+  color: #00b2d7;
+}
+.container article .content p {
+  color: #3A4145;
+  font-size: 20px;
+}
+.container article .tags {
+  color: #666;
+}
+.container article .tags i {
+  margin-right: 8px;
+  color: #69E5FF;
+}
+.container article .tags a {
+  color: #888;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container article .tags a:hover {
+  color: #00b2d7;
+}
+.single-post article header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-indent: -2px;
+  line-height: 1.2;
+  color: #50585D;
+}
+.single-post article .share-post {
+  padding-top: 20px;
+  float: right;
+}
+.single-post article .share-post h4 {
+  margin: 10px 0 4px 0;
+}
+.single-post article .share-post .social-icon {
+  margin: 8px 0;
+}
+.single-post article .share-post .social-icon li a {
+  border-radius: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+  clear: both;
+}
+.social-icon {
+  padding-left: 0;
+  margin-top: 20px;
+}
+.social-icon li {
+  margin: 0 2px;
+  display: inline;
+}
+.social-icon li a {
+  padding: 5px 10px;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+}
+.social-icon li .facebook {
+  background: #425f9c;
+  padding: 5px 12px;
+}
+.social-icon li .twitter {
+  background: #55acee;
+}
+.social-icon li .linkedin {
+  background: #425f9c;
+}
+.social-icon li .google-plus {
+  background: #d73d32;
+}
+.show-nav .container {
+  margin-left: 40%;
+}
+.show-nav .container:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.show-nav #sidebar {
+  left: 0;
+}
+.btn-canvus {
+  display: none;
+  font-size: 30px;
+}
+.btn-sidebar-canvus {
+  color: #7C7C7C;
+  background: #fff;
+  float: right;
+  padding: 4px 7px;
+  display: none;
+}
