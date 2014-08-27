@@ -1,0 +1,59 @@
+<aside id="sidebar" class="site-canvus" role="banner">
+ <a href="#" class="toggle-nav btn-sidebar-canvus" id="big-sexy"></i>X</a>
+	<div class="block site-menu">
+		{{#if @blog.logo}}
+			<a class="logo" href="{{@blog.url}}" class="logo-tx">
+				<img src="{{@blog.logo}}" alt="{{@blog.title}}">
+			</a>
+		{{/if}}
+
+		<h1 class="title">
+			<a href="{{@blog.url}}">
+				{{@blog.title}}
+			</a>
+		</h1>
+
+		<p class="description">
+			{{@blog.description}}
+		</p>
+		<ul class="social-icon">
+			<li>
+				<a class="facebook" href="http://www.facebook.com/themexpert" target="_blank">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a class="twitter" href="https://twitter.com/themexpert" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a class="linkedin" href="http://facebook.com" target="_blank">
+					<i class="fa fa-linkedin"></i>
+				</a>
+			</li>
+			<li>
+				<a class="google-plus" href="https://plus.google.com/+Themexpert" target="_blank">
+					<i class="fa fa-google-plus"></i>
+				</a>
+			</li>
+		</ul>
+		<div class="subscription">
+			<form role="form">
+				<div class="form-group">
+					<p>Subscribe my mailing list</p>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				</div>
+				<button class="btn btn-subscribe">Subscribe</button>
+			</form>
+		</div>
+		<footer>
+			<p>&copy; Copyright <a href="/">{{@blog.title}}</a></p>
+		</footer>
+	</div>
+</aside>
+	
+
+{{ghost_foot}}
+
+<script src="/assets/js/offcanvus.js"></script>

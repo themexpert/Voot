@@ -36,9 +36,10 @@
 							</a>
 						</li>
 						<li>
-							<a class="twitter" href="http://twitter.com/share?text={{ }}&amp;url={{url absolute="true"}}" target="_blank">
-								<i class="fa fa-twitter"></i>
-							</a>
+							<a class="twitter" href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
+                                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
 						</li>
 						<li>
 							<a class="google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}" target="_blank">

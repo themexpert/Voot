@@ -99,7 +99,8 @@ img {
   margin-bottom: 5px;
 }
 #sidebar .block .subscription .form-group p {
-  color: #B9B9B9;
+  color: #D8D8D8;
+  font-size: 15px;
 }
 #sidebar .block .subscription .form-group input {
   border: none;
@@ -252,4 +253,27 @@ img {
   float: right;
   padding: 4px 7px;
   display: none;
+}
+footer p {
+  color: #666;
+  font-size: 12px;
+}
+footer p a {
+  color: #666;
+}
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.pagination .page-number {
+  text-align: center;
+}
+.pagination .newer-posts,
+.pagination .older-posts {
+  color: #666;
+}
+.pagination .newer-posts i,
+.pagination .older-posts i {
+  margin: 0 5px;
 }
