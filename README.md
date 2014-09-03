@@ -16,4 +16,4 @@ Brought to you by [Themexpert](https://www.themexpert.com) .
 - Google Fonts.
 
 ##Copyright & License
-Copyright (C) 2014 Themexpert - Released under the MIT License.
+Copyright (C) 2014 [Themexpert](https://www.themexpert.com) - Released under the MIT License.
