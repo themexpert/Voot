@@ -1,10 +1,10 @@
-#Voot Free Ghost Theme 
+#Voot Ghost Theme 
 ====
 Voot is a FREE responsive Ghost Theme. The theme has been shaped with condense typography.Voot Theme is perfectly suitable for personal blogging.However possibilities are endless to your creativity.
 
+##Free theme for Ghost by [Themexpert](https://www.themexpert.com) .
 ##Preview
 ###[Demo](http://voot.ghost.themexpert.com)
-
 
 ##Features
 - Ghost 0.5 Compatible.
